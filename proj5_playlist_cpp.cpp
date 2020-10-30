@@ -142,6 +142,7 @@ int main(){
 		else if (ch == 3){
 			cout << "	_________________________________" << endl;
 			cout << "		*** DELETE SONG ***" << endl;
+			cout << "	_____________________________________" << endl;
 			cout << "Enter the details of the song to delete (i.e. song, artist) : ";
 			cin >> s1;
 			MyFav.DeleteSong(s1);
@@ -149,24 +150,29 @@ int main(){
 		else if (ch == 4){
 			cout << "	_______________________________" << endl;
 			cout << "		*** ALL SONGS ***" << endl;
+			cout << "	_____________________________________" << endl;
 			MyFav.ShowAll();
 		}
 		else if (ch == 5){
 			cout << "	_____________________________________" << endl;
 			cout << "		*** PLAYLIST STATUS ***" << endl;
+			cout << "	_____________________________________" << endl;
 			MyFav.ShowStatus();
 		}
 		else if (ch == 6){
 			cout << "	_______________________________" << endl;
 			cout << "		*** NEXT SONG ***" << endl;
+			cout << "	_____________________________________" << endl;
 			MyFav.play();
 		}
 		else if (ch == 7){
 			cout << "	____________________________________" << endl;
 			cout << "		*** PREVIOUS SONG ***" << endl;
+			cout << "	_____________________________________" << endl;
 
 		}
 		else if (ch == 8){
+			cout << "	_____________________________________" << endl;
 			cout << "	Have a good day." << endl;
 		}
 	} while (ch != 8);
